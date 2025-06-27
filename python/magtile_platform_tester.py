@@ -86,7 +86,7 @@ def turn_off_all_coils(controller):
 if __name__ == "__main__":
     # Replace '/dev/tty.usbmodem101' with the appropriate port for your Arduino
     # port = '/dev/tty.usbmodem1101'
-    port = 'COM3'
+    port = '/dev/cu.usbmodem1301'
 
     print(f"Connecting to MagTile1 controller on port: {port}")
     

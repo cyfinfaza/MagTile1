@@ -86,7 +86,7 @@ def turn_off_all_coils(controller):
 # Main execution
 if __name__ == "__main__":
     # Replace '/dev/tty.usbmodem101' with the appropriate port for your Arduino
-    port = '/dev/tty.usbmodem1101'
+    port = '/dev/tty.usbmodem11301'
     
     # Set up the signal handler for keyboard interrupt
     signal.signal(signal.SIGINT, signal_handler)
